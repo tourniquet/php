@@ -1,7 +1,3 @@
-<?php
-  require_once('authorize.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,5 +7,6 @@
   <title>Document</title>
 </head>
 <body>
+  
 </body>
 </html>
