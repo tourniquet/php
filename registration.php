@@ -31,7 +31,7 @@
           if (mysqli_num_rows($result) == 0) {
             $query = "INSERT INTO users (email, password)
               VALUES ('$email', '$password')";
-            mysqli_query($dbc, $query) or die('Error quering database!');
+            mysqli_query($dbc, $query);
 
             $show_form = false;
             mysqli_close($dbc);
